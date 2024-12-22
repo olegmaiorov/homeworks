@@ -1,7 +1,9 @@
 def get_matrix(n=2, m=2, value=1):
     # matrix = []
     # for _ in range(n):
-    #     matrix.append([value for _ in range(m)])
+    #     matrix.append([])
+    #     for _ in range(m):
+    #         matrix[-1].append(value)
     # return matrix
     return [[value for _ in range(m)] for _ in range(n)]
 
